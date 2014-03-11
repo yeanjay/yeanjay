@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/struts lib/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/struts-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/struts2-json-plugin-2.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/freemarker-2.3.16.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/ognl-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/struts2-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/struts lib/xwork-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/hibernate-search-orm-4.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/avro-1.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/hibernate-core-4.2.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/lucene-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/paranamer-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/lib/required/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/hibernate-search-4.3.0.Final/dist/hibernate-search-engine-4.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/urlrewrite-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

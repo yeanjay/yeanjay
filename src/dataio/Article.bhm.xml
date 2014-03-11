@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="dataio">
+
+    <class name="Article" table="ARTICLE">
+        <id name="id" column="ARTICLE_ID">
+            <generator class="native" />
+        </id>
+        <property name="title" column="ARTICLE_TITLE" />
+		<property name="content" column="ARTICLE_CONTENT" />
+		<property name="timestamp" column="ARTICLE_TIMESTAMP" />
+		<property name="abstractWords" column="ARTICLE_ABSTRACT" />
+		
+		<set name="taggedArticles" inverse="true" cascade="delete" lazy="false">
+			<key column="ARTICLE_ID" />
+			<one-to-many class="TaggedArticle"  />
+		</set>
+    </class>
+
+</hibernate-mapping>

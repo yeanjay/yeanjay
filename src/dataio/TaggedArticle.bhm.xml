@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="dataio">
+
+    <class name="TaggedArticle" table="ARTICLE_TAG" mutable="false">
+    	<composite-id name="id" class="TaggedArticle$Id">
+    		<key-property name="articleId" access="field" column="ARTICLE_ID"/>
+    		<key-property name="tagId" access="field" column="TAG_ID"/>
+    	</composite-id>
+    	
+        <many-to-one name="article" column="ARTICLE_ID" not-null="true" insert="false" update="false" lazy="false" />
+        <many-to-one name="tag" column="TAG_ID" not-null="true" insert="false" update="false" lazy="false" />
+    </class>
+
+</hibernate-mapping>

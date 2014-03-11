@@ -1,0 +1,72 @@
+﻿body {
+ // font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  //font: 16px/19px Roboto, sans-serif, '微软雅黑';
+  font-family: Roboto, "Microsoft YaHei";
+  font-size: 16px;
+  background: rgb(236, 236, 236);
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+	font-size: 14pt;
+	line-height: 1.4;
+	font-family: Roboto,"Microsoft YaHei";
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ccc;
+  cursor:pointer;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#main {
+  width: 960px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  padding-top: 10px;
+  background:rgb(236, 236, 236);
+}
+
+
+.main_frame {
+	margin: 5px;
+}
+
+.main_frame .left {
+	width: 620px;
+	padding: 20px 0px 0px 20px;
+	margin: 5px;
+	background: #FFFFFF;
+	float: left;
+	border: 0px solid #000;  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px;
+}
+
+.main_frame .right {
+	width: 290px;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	background: #FFFFFF;
+	float: left;
+	border: 0px solid #000;  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px;
+}
+
+.footer {
+	height: 30px;
+  	font-size: 0.65em;
+  	text-align: center;
+}
